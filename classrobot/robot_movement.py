@@ -82,8 +82,7 @@ class RobotControl:
         Returns:
             The joint configuration computed from IK or raises an error if IK fails.
         """
-        q_robot = self.robot_get_joint_rad()  # Current joint configuration as seed
-        joint_robot = self._ROBOT_CON_.getInverseKinematics(x, q_robot)
+        joint_robot = self._ROBOT_CON_.getInverseKinematics(x)
         
         if joint_robot is None:
             raise ValueError("Inverse kinematics failed to find a solution for the given pose.")
