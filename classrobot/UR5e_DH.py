@@ -59,14 +59,9 @@ class UR5eDH(DHRobot):
         )
 
         # Named configurations
-        # self.qr = np.radians([180, 0, 0, 0, 90, 0])
-        # self.qz = np.zeros(6)
-        # Default joint configuration (q)
         self.q = np.zeros(6)
         self.q_HOME =[0.701172053107018, 0.184272460738082, 0.1721568294843568,
                        -1.7318488600590023, 0.686830145115122, -1.731258978679887]
-        # self.addconfiguration("qr", self.qr)
-        # self.addconfiguration("qz", self.qz)
         self.addconfiguration("q_HOME", self.q_HOME)
 
 
