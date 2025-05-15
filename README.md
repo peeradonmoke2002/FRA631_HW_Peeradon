@@ -1,18 +1,22 @@
 # FRA631_HW_Peeradon
- Repo for Homework in FRA631 Class
 
- Forward and inverse kinematics Homework
-    pdf:
-        [forward&inv_kinematics.pdf](forward&inv_kinematics.pdf)
-    code:
-        [forward&inv_kinematics.ipynb](forward&inv_kinematics.ipynb)
+Repository for FRA631 Class Homework
 
- Trajectory planning Homework
-    pdf:
-        [trajectory_planning.pdf](trajectory_planning.pdf)
-    code:
-        [trajectory_planning.ipynb](trajectory_planning.ipynb)
+## 1. Forward and Inverse Kinematics
 
- Results video from trajectory planning
- ![trajectory_result.gif](./images/trajectory_result.gif)
+- **PDF:** [forward & inverse kinematics](./forward&inv_kinematics.pdf)
+- **Code:** [forward & inverse kinematics notebook](./forward&inv_kinematics.ipynb)
+- **Results:**  
+```bash
+q_HOME: [ 0.71448904 -1.93802991 -2.05205607 -2.27198233 -0.90031845  2.36535263]
+q_IK  : [ 0.71448904 -1.93802991 -2.05205607 -2.27198233 -0.90031845  2.36535263]
+Error : [ 0.0000000e+00  0.0000000e+00 -4.4408921e-16  4.4408921e-16
+  0.0000000e+00  0.0000000e+00]
+RMSE  : 0.000000 rad
+```
+## 2. Trajectory Planning
 
+- **PDF:** [trajectory planning & speed control](./tracjectory-planning&speed-control.pdf)
+- **Code:** [trajectory planning notebook](./trajectory_planning.ipynb)
+- **Results:**  
+    ![Trajectory Result](./images/trajectory_result.gif)
