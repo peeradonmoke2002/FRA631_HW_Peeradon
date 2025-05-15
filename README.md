@@ -2,7 +2,7 @@
 
 Repository for FRA631 Class Homework
 
-**67340700403 พีรดนย์_เรืองแก้ว**
+**67340700403 พีรดนย์ เรืองแก้ว**
 
 ## 1. Forward and Inverse Kinematics
 
