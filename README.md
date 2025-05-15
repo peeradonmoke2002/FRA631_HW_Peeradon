@@ -15,7 +15,7 @@ q_IK  : [ 0.71448904 -1.93802991 -2.05205607 -2.27198233 -0.90031845  2.36535263
 Error : [ 0.0000000e+00  0.0000000e+00 -4.4408921e-16  4.4408921e-16 0.0000000e+00  00000000e+00]
 RMSE  : 0.000000 rad
 ```
-## 2. Trajectory Planning
+## 2. Trajectory Planning and speed control
 
 - **PDF:** [trajectory planning & speed control](./tracjectory-planning&speed-control.pdf)
 - **Code:** [trajectory planning notebook](./trajectory_planning.ipynb)
