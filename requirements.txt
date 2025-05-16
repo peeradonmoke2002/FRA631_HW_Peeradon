@@ -1,0 +1,9 @@
+numpy
+opencv-python
+matplotlib
+roboticstoolbox-python
+pandas
+ur_rtde
+notebook
+jupyter
+ipykernel
