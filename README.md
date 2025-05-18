@@ -1,4 +1,4 @@
-# FRA631\_HW\_Peeradon
+# FRA631_HW_Peeradon
 
 Repository for FRA631 Class Homework
 
@@ -18,7 +18,17 @@ Repository for FRA631 Class Homework
 
 ## Installation
 
-### Step 1: Create and Activate Virtual Environment
+### Step 1 : Clone the Repository and Navigate to the Directory
+
+```bash
+git clone https://github.com/peeradonmoke2002/FRA631_HW_Peeradon.git
+
+cd FRA631_HW_Peeradon
+```
+
+
+
+### Step 2: Create and Activate Virtual Environment
 
 **For Windows:**
 
@@ -84,7 +94,7 @@ RMSE  : 0.000000 rad
 
 ## Homework 3: Trajectory Planning and Speed Control
 
-* **PDF:** [Trajectory Planning & Speed Control](./Hw3/tracjectory-planning&speed-control_hw3.pdf)
+* **PDF:** [Trajectory Planning & Speed Control](./Hw3/trajectory-planning&speed-control_hw3.pdf)
 * **Code:** [Trajectory Planning Notebook](./Hw3/tracjectory-planning&speed-control_hw3.ipynb)
 
 **Results:**
